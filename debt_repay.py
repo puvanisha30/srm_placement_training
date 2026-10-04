@@ -1,0 +1,11 @@
+P=float(input())
+R=float(input())
+T=float(input())
+i=(P*R*T)/100
+a=P+i
+d=i*0.02
+f=a-d
+print(f"{i:.2f}")
+print(f"{a:.2f}")
+print(f"{d:.2f}")
+print(f"{f:.2f}")
